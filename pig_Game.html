@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Pig Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <div class="container clearfix">
+    <div class="panel_0 active">
+      <div class="player_name" id="name_0">Player 0</div>
+      <div class="player_score" id='score_0'>20</div>
+      <div class="current_box">
+        <div class="current_label">Current</div>
+        <div class="current_score" id='current_0'>30</div>
+      </div>
+
+    </div>
+    <div class="panel_1">
+      <div class="player_name" id="name_1">Player 1</div>
+      <div class="player_score" id='score_1'>36</div>
+      <div class="current_box">
+        <div class="current_label">Current</div>
+        <div class="current_score" id='current_1'>67</div>
+      </div>
+    </div>
+    <button type="button" name="button" class="btn_new"><i class="ion-ios-plus-outline"></i>New Game</button>
+    <button type="button" name="button" class="btn_roll"><i class="ion-ios-loop"></i>Roll Dice</button>
+    <button type="button" name="button" class="btn_hold"><i class="ion-ios-download-outline"></i>Hold</button>
+    <input class="final_score" type="text" placeholder="Final Score">
+    <img src="dice-3.png" alt="dice-3" class="dice" id='dice-3'>
+  </div>
+  <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>
